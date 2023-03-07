@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+    <style>
+
+        body {
+            background-color: darkgrey;
+        }
+
+        
+
+        .container {
+            width: 220px;
+            margin: auto;
+           
+        }
+        form {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2 style="margin-top: 10%;" class="ui black center aligned header">
+        <img src="https://s3-ap-southeast-1.amazonaws.com/niomic/img-v1/c_login_logo.png" class="ui image"> 
+                Daftar Akun NIOMIC
+    </h2>
+    <div class="container">
+      
+        <form class="ui form">
+           
+        <div>
+            <div class="ui left icon input filed">
+                <i class="user icon"></i>
+                <input type="text" placeholder="Nama Depan">
+            </div>
+        </div>
+        <div>
+            <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="text" placeholder="Nama Belakang">
+            </div>
+        </div>
+
+        <div>
+            <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="text" placeholder="No Telp/HP">
+            </div>
+        </div>
+
+        <div>
+            <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="email" placeholder="Alamat Email">
+            </div>
+        </div>
+        <div>
+            <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <button class="ui teal button">Login</button>
+
+    </form>
+   </div>
+    
+
+    <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+</body>
+
+</html>
